@@ -13,7 +13,16 @@ This is a project used to start greenfield projects in rails 4.
 == Repository Configuration
 * Clone it
 
-* Replace rails-r4 and the word Start with the name of your project in everywhere.
+* Replace "rails-r4" and the word "Start" with the name of your project in everywhere.
+  * Rakefile
+  * config/application.rb
+  * config/environment.rb
+  * config/environments/production.rb
+  * config/environments/test.rb
+  * config/initializers/active_admin.rb
+  * config/initializers/secret_token.rb
+  * config/initializers/session_store.rb
+  * config/routes.rb
 
 * Change origin: ```git remote set-url origin git://new.url.here```
 
